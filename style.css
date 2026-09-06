@@ -1,0 +1,47 @@
+body,
+.header,
+.top,
+.intro,
+.text,
+.head {
+    display: flex;
+}
+
+body {
+    justify-content: center;
+}
+
+.intro {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header {
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+    margin: 0;
+}
+
+.top {
+    justify-content: space-between;
+    padding: 4px 8px;
+}
+
+.right-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.link {
+    padding: 8px;
+}
+
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}

@@ -1,30 +1,60 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
 body,
 .header,
 .top,
 .intro,
 .text,
-.head {
+.head, .info {
     display: flex;
-}
-
-body {
-    justify-content: center;
 }
 
 .intro {
     flex-direction: row;
+    align-content: center;
     justify-content: center;
+    margin: 32px;
+}
+
+.info {
+    box-sizing: border-box;
+    max-width: 400px;
+    flex-direction: column;
+    flex: 1;
+    margin: 8px 64px 8px 0;
+}
+
+.img {
+    padding: 64px;
+    align-content: center;
+    align-items: center;
+    background-color: gray;
+    margin: 32px;
+}
+
+.sign-up {
+    border-radius: 8px;
+    padding: 4px 16px;
+    display: flex;
+    width: fit-content;
+    background-color: #3882F6;
+    border: 0;
+    color: white;
+    margin: 8px;
 }
 
 .header {
     flex-direction: column;
     background-color: #1F2937;
     color: white;
-    margin: 0;
+    width: 100%;
 }
 
 .top {
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 4px 8px;
 }
 
@@ -40,7 +70,7 @@ body {
 .roboto-font {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 300;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;

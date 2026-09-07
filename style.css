@@ -9,7 +9,7 @@ body {
 }
 
 body, .header, .top, .intro, .text, .head, .info, .sign-up, 
-.quote {
+.quote, .penultimate {
     display: flex;
 }
 
@@ -139,6 +139,63 @@ body, .header, .top, .intro, .text, .head, .info, .sign-up,
     text-align: end;
     font-size: 20px;
     font-weight: 900;
+}
+
+.penultimate {
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #3882F6;
+    margin: 100px 200px;
+    padding: 35px 100px;
+    justify-content: space-evenly;
+}
+
+.penultimate .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.text .header {
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    text-align: start;
+    background-color: #3882F6;
+    margin-bottom: 0;
+    padding-bottom: 8px;
+    padding-top: 0px;
+    margin-top: 10px;
+}
+
+.text .info {
+    padding-top: 8px;
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.penultimate .sign-up {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-self: center;
+    padding: 4px 24px;
+    margin: 16px;
+    border: 2px;
+    height: 30px;
+    border-color: white;
+    border-style: solid;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    font-size: 16px;
+    color: white;
+    padding: 32px;
 }
 
 .roboto-font {

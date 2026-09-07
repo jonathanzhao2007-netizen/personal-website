@@ -8,12 +8,8 @@ body {
     flex-direction: column;
 }
 
-body,
-.header,
-.top,
-.intro,
-.text,
-.head, .info {
+body, .header, .top, .intro, .text, .head, .info, .sign-up, 
+.quote {
     display: flex;
 }
 
@@ -54,7 +50,6 @@ body,
 .sign-up {
     border-radius: 8px;
     padding: 4px 16px;
-    display: flex;
     width: fit-content;
     background-color: #3882F6;
     border: 0;
@@ -67,6 +62,7 @@ body,
     background-color: #1F2937;
     color: white;
     width: 100%;
+    padding-bottom: 64px;
 }
 
 .top {
@@ -79,7 +75,7 @@ body,
     justify-content: center;
     align-items: center;
     color: #1F2937;
-    padding: 16px;
+    padding: 32px;
     margin: 16px auto 4px auto;
     font-size: 36px;
     font-weight: 900;
@@ -95,7 +91,7 @@ body,
     display: flex;
     margin: 8px 128px;
     justify-content: center;
-    padding: 16px 64px;
+    padding: 8px 64px;
 }
 
 .box {
@@ -116,6 +112,7 @@ body,
 .box-text .text {
     text-align: center;
 }
+
 .right-links {
     display: flex;
     flex-direction: row;
@@ -123,6 +120,25 @@ body,
 
 .link {
     padding: 8px;
+}
+
+.quote {
+    flex-direction: column;
+    padding: 100px 350px;
+    background-color: lightgray;
+}
+
+.quote .text {
+    text-align: start;
+    font-size: 32px;
+    line-height: 1.6;
+    letter-spacing: 2;
+}
+
+.author {
+    text-align: end;
+    font-size: 20px;
+    font-weight: 900;
 }
 
 .roboto-font {

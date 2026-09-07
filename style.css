@@ -125,14 +125,16 @@ body, .header, .top, .intro, .text, .head, .info, .sign-up,
 .quote {
     flex-direction: column;
     padding: 100px 350px;
-    background-color: lightgray;
+    background-color: #E5E7EB;
 }
 
 .quote .text {
     text-align: start;
-    font-size: 32px;
+    font-size: 36px;
     line-height: 1.6;
     letter-spacing: 2;
+    color: #1F2937;
+    font-weight: 300;
 }
 
 .author {

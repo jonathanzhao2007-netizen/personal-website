@@ -1,6 +1,11 @@
 html, body {
     padding: 0;
     margin: 0;
+    font-family: "Roboto";
+}
+
+body {
+    flex-direction: column;
 }
 
 body,
@@ -25,6 +30,17 @@ body,
     flex-direction: column;
     flex: 1;
     margin: 8px 64px 8px 0;
+}
+
+.head {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.info .text {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .img {
@@ -58,6 +74,48 @@ body,
     padding: 4px 8px;
 }
 
+.second .top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+    padding: 16px;
+    margin: 16px auto 4px auto;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.second {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+}
+
+.box-row {
+    display: flex;
+    margin: 8px 128px;
+    justify-content: center;
+    padding: 16px 64px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: #3882F6 4px;
+    border-radius: 12px;
+    border-style: solid;
+}
+.box-text {
+    display: flex;
+    max-width: 150px;
+    flex-direction: column;
+    padding: 16px;
+    margin: 16px;
+}
+
+.box-text .text {
+    text-align: center;
+}
 .right-links {
     display: flex;
     flex-direction: row;
